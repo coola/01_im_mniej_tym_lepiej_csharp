@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d2c9d12c-1b58-4d45-8d80-eedc00570499" name="coola@NOTEBOOK-COOLA 2015-03-10 21:06:52" runUser="NOTEBOOK-COOLA\coola" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dae9df71-d300-401f-8367-061e4e710b1c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="coola_NOTEBOOK-COOLA 2015-03-10 21_06_52">
+      <DeploymentItem filename="c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\compress\bin\Debug\compress.dll" />
+      <DeploymentItem filename="c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\packages\NUnit.2.6.4\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-10T21:06:53.0312500+01:00" queuing="2015-03-10T21:06:53.2031250+01:00" start="2015-03-10T21:06:55.5468750+01:00" finish="2015-03-10T21:07:26.7031250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="load_test_file_2" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="b6fea724-3378-600e-cf2e-781a6f6a331b">
+      <Execution id="4cfafd76-c0f8-4b2d-893a-c5c87777b3fb" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_2" />
+    </UnitTest>
+    <UnitTest name="load_test_file_3" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="88996431-512a-c025-e559-d875f3cbc868">
+      <Execution id="0fcbf543-0787-4382-8bb0-96506623d103" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_3" />
+    </UnitTest>
+    <UnitTest name="load_test_file_4" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="69fe3669-04d0-7adf-f2e7-27373def8b82">
+      <Execution id="cb572e48-29f1-411c-aa1a-b15c09115314" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_4" />
+    </UnitTest>
+    <UnitTest name="test_if_there_is_file_manager" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="f64e556a-56f7-c473-1197-0b0e58cdc61a">
+      <Execution id="ddf69bef-e717-4c00-8cc1-b4f524675187" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_if_there_is_file_manager" />
+    </UnitTest>
+    <UnitTest name="load_test_file_1" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="e12dbc16-d073-c1fd-969e-3d54726babcb">
+      <Execution id="e44abd69-5d09-41c5-97a8-24eebb2eacb1" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69fe3669-04d0-7adf-f2e7-27373def8b82" executionId="cb572e48-29f1-411c-aa1a-b15c09115314" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88996431-512a-c025-e559-d875f3cbc868" executionId="0fcbf543-0787-4382-8bb0-96506623d103" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6fea724-3378-600e-cf2e-781a6f6a331b" executionId="4cfafd76-c0f8-4b2d-893a-c5c87777b3fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e12dbc16-d073-c1fd-969e-3d54726babcb" executionId="e44abd69-5d09-41c5-97a8-24eebb2eacb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f64e556a-56f7-c473-1197-0b0e58cdc61a" executionId="ddf69bef-e717-4c00-8cc1-b4f524675187" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb572e48-29f1-411c-aa1a-b15c09115314" testId="69fe3669-04d0-7adf-f2e7-27373def8b82" testName="load_test_file_4" computerName="NOTEBOOK-COOLA" duration="00:00:05.0883542" startTime="2015-03-10T21:06:55.7812500+01:00" endTime="2015-03-10T21:07:11.3593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb572e48-29f1-411c-aa1a-b15c09115314">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method tests.UnitTest1.load_test_file_4 threw exception: 
+System.IO.FileNotFoundException: Could not find file 'c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\tests\bin\Debug\Data4.txt'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at tests.UnitTest1.load_test_file_4() in c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\tests\UnitTest1.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0fcbf543-0787-4382-8bb0-96506623d103" testId="88996431-512a-c025-e559-d875f3cbc868" testName="load_test_file_3" computerName="NOTEBOOK-COOLA" duration="00:00:00.0676273" startTime="2015-03-10T21:07:11.3593750+01:00" endTime="2015-03-10T21:07:11.5468750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fcbf543-0787-4382-8bb0-96506623d103">
+    </UnitTestResult>
+    <UnitTestResult executionId="4cfafd76-c0f8-4b2d-893a-c5c87777b3fb" testId="b6fea724-3378-600e-cf2e-781a6f6a331b" testName="load_test_file_2" computerName="NOTEBOOK-COOLA" duration="00:00:00.3583924" startTime="2015-03-10T21:07:11.6562500+01:00" endTime="2015-03-10T21:07:12.0312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cfafd76-c0f8-4b2d-893a-c5c87777b3fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="e44abd69-5d09-41c5-97a8-24eebb2eacb1" testId="e12dbc16-d073-c1fd-969e-3d54726babcb" testName="load_test_file_1" computerName="NOTEBOOK-COOLA" duration="00:00:10.7743257" startTime="2015-03-10T21:07:12.0312500+01:00" endTime="2015-03-10T21:07:24.0937500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e44abd69-5d09-41c5-97a8-24eebb2eacb1">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddf69bef-e717-4c00-8cc1-b4f524675187" testId="f64e556a-56f7-c473-1197-0b0e58cdc61a" testName="test_if_there_is_file_manager" computerName="NOTEBOOK-COOLA" duration="00:00:00.5470125" startTime="2015-03-10T21:07:24.1718750+01:00" endTime="2015-03-10T21:07:25.0937500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddf69bef-e717-4c00-8cc1-b4f524675187">
+    </UnitTestResult>
+  </Results>
+</TestRun>

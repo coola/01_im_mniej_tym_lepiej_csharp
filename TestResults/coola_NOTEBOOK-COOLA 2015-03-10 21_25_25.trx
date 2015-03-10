@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a13c5cf-178a-40c7-a0ee-772a2f4c8728" name="coola@NOTEBOOK-COOLA 2015-03-10 21:25:25" runUser="NOTEBOOK-COOLA\coola" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dae9df71-d300-401f-8367-061e4e710b1c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="coola_NOTEBOOK-COOLA 2015-03-10 21_25_25">
+      <DeploymentItem filename="c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\compress\bin\Debug\compress.dll" />
+      <DeploymentItem filename="c:\documents and settings\coola\moje dokumenty\visual studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\packages\NUnit.2.6.4\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-10T21:25:25.5468750+01:00" queuing="2015-03-10T21:25:26.0000000+01:00" start="2015-03-10T21:25:26.4531250+01:00" finish="2015-03-10T21:25:32.2187500+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="load_test_file_2" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="b6fea724-3378-600e-cf2e-781a6f6a331b">
+      <Execution id="87471fa3-f445-45b9-aeff-a8cda3280ed5" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_2" />
+    </UnitTest>
+    <UnitTest name="load_test_file_4" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="69fe3669-04d0-7adf-f2e7-27373def8b82">
+      <Execution id="f17eb9a3-3fc8-47be-aba5-3b5afefd23e7" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_4" />
+    </UnitTest>
+    <UnitTest name="load_test_file_3" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="88996431-512a-c025-e559-d875f3cbc868">
+      <Execution id="1758ba61-e281-42d0-9456-9513aa95d192" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_3" />
+    </UnitTest>
+    <UnitTest name="load_test_file_1" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="e12dbc16-d073-c1fd-969e-3d54726babcb">
+      <Execution id="e5f81d76-dbcd-4bdb-86ba-3f7bc363966b" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_1" />
+    </UnitTest>
+    <UnitTest name="test_convert_data_into_points_1" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="18bc8675-5b98-8dc9-4781-f01bc294fb08">
+      <Execution id="8227ab9f-50d0-4e49-abea-80ba3ee3f9f0" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_convert_data_into_points_1" />
+    </UnitTest>
+    <UnitTest name="test_if_there_is_file_manager" storage="c:\documents and settings\coola\moje dokumenty\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\debug\tests.dll" id="f64e556a-56f7-c473-1197-0b0e58cdc61a">
+      <Execution id="44557072-ded7-4ab0-8eba-b8b213992f5a" />
+      <TestMethod codeBase="c:/documents and settings/coola/moje dokumenty/visual studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Debug/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.UnitTest1, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_if_there_is_file_manager" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18bc8675-5b98-8dc9-4781-f01bc294fb08" executionId="8227ab9f-50d0-4e49-abea-80ba3ee3f9f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69fe3669-04d0-7adf-f2e7-27373def8b82" executionId="f17eb9a3-3fc8-47be-aba5-3b5afefd23e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88996431-512a-c025-e559-d875f3cbc868" executionId="1758ba61-e281-42d0-9456-9513aa95d192" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6fea724-3378-600e-cf2e-781a6f6a331b" executionId="87471fa3-f445-45b9-aeff-a8cda3280ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e12dbc16-d073-c1fd-969e-3d54726babcb" executionId="e5f81d76-dbcd-4bdb-86ba-3f7bc363966b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f64e556a-56f7-c473-1197-0b0e58cdc61a" executionId="44557072-ded7-4ab0-8eba-b8b213992f5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8227ab9f-50d0-4e49-abea-80ba3ee3f9f0" testId="18bc8675-5b98-8dc9-4781-f01bc294fb08" testName="test_convert_data_into_points_1" computerName="NOTEBOOK-COOLA" duration="00:00:00.0648914" startTime="2015-03-10T21:25:26.5156250+01:00" endTime="2015-03-10T21:25:28.2031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8227ab9f-50d0-4e49-abea-80ba3ee3f9f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="f17eb9a3-3fc8-47be-aba5-3b5afefd23e7" testId="69fe3669-04d0-7adf-f2e7-27373def8b82" testName="load_test_file_4" computerName="NOTEBOOK-COOLA" duration="00:00:00.0013289" startTime="2015-03-10T21:25:28.2187500+01:00" endTime="2015-03-10T21:25:28.2187500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f17eb9a3-3fc8-47be-aba5-3b5afefd23e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="1758ba61-e281-42d0-9456-9513aa95d192" testId="88996431-512a-c025-e559-d875f3cbc868" testName="load_test_file_3" computerName="NOTEBOOK-COOLA" duration="00:00:00.1899747" startTime="2015-03-10T21:25:28.2187500+01:00" endTime="2015-03-10T21:25:28.4218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1758ba61-e281-42d0-9456-9513aa95d192">
+    </UnitTestResult>
+    <UnitTestResult executionId="87471fa3-f445-45b9-aeff-a8cda3280ed5" testId="b6fea724-3378-600e-cf2e-781a6f6a331b" testName="load_test_file_2" computerName="NOTEBOOK-COOLA" duration="00:00:00.0314132" startTime="2015-03-10T21:25:28.4218750+01:00" endTime="2015-03-10T21:25:28.4687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87471fa3-f445-45b9-aeff-a8cda3280ed5">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5f81d76-dbcd-4bdb-86ba-3f7bc363966b" testId="e12dbc16-d073-c1fd-969e-3d54726babcb" testName="load_test_file_1" computerName="NOTEBOOK-COOLA" duration="00:00:03.2721007" startTime="2015-03-10T21:25:28.4687500+01:00" endTime="2015-03-10T21:25:31.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5f81d76-dbcd-4bdb-86ba-3f7bc363966b">
+    </UnitTestResult>
+    <UnitTestResult executionId="44557072-ded7-4ab0-8eba-b8b213992f5a" testId="f64e556a-56f7-c473-1197-0b0e58cdc61a" testName="test_if_there_is_file_manager" computerName="NOTEBOOK-COOLA" duration="00:00:00.0003184" startTime="2015-03-10T21:25:31.7500000+01:00" endTime="2015-03-10T21:25:31.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44557072-ded7-4ab0-8eba-b8b213992f5a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
