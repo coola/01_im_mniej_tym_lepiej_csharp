@@ -40,9 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compressor.cs" />
     <Compile Include="CompressorAlgorithm.cs" />
+    <Compile Include="CompressorAlorithm.cs" />
+    <Compile Include="DeltaCompressorAlgorithm.cs" />
+    <Compile Include="PointCompressorAlgorithm.cs" />
     <Compile Include="Decompressor.cs" />
+    <Compile Include="DeltaPointCompressorAlgorithm.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="GPS_Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,8 +1,20 @@
 ﻿
+
+using System.Collections.Generic;
+
 namespace compress
 {
     public abstract class CompressorAlgorithm
     {
-        public abstract string CompressPoint(GPS_Point point);
+        protected  PointCompressorAlgorithm Algorithm
+        {
+            get; set; }
+
+        protected CompressorAlgorithm(PointCompressorAlgorithm algorithm)
+        {
+            Algorithm = algorithm;
+        }
+
+        public abstract string Compress(List<GPS_Point> points);
     }
 }

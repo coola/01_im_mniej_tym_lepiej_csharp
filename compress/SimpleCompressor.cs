@@ -2,7 +2,7 @@
 
 namespace compress
 {
-    public class SimpleCompressor : CompressorAlgorithm
+    public class SimpleCompressor : PointCompressorAlgorithm
     {
         public override string CompressPoint(GPS_Point line)
         {
