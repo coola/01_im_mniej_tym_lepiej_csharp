@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Reflection;
+using common;
 using compress;
-
 
 namespace tests
 {
@@ -14,10 +14,8 @@ namespace tests
         [TestMethod]
         public void test_if_there_is_file_manager()
         {
-
             var fileManager = new FileManager();
             Assert.IsNotNull(fileManager);
-
         }
 
         [TestMethod]
@@ -78,7 +76,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new ConcatenateCompressorAlorithm(new SimpleCompressor()).Compress(points);
+            var compressedString = new ConcatenateAlgorithm(new SimplePointAlgorithm()).Compress(points);
 
             Assert.AreEqual("7102990567851409", compressedString);
 
@@ -92,7 +90,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new ConcatenateCompressorAlorithm(new SimpleCompressor()).Compress(points);
+            var compressedString = new ConcatenateAlgorithm(new SimplePointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71029905678514097102990567851409", compressedString);
 
@@ -106,7 +104,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new ConcatenateCompressorAlorithm(new SimpleCompressor()).Compress(points);
+            var compressedString = new ConcatenateAlgorithm(new SimplePointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71029905678514097102990567851309", compressedString);
 
@@ -146,7 +144,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29905|67|851409", compressedString);
 
@@ -160,7 +158,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29905|67|851409|-1|1", compressedString);
         }
@@ -173,7 +171,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29904|67|851409|0|0", compressedString);
         }
@@ -186,7 +184,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29904|67|851409|-1|-1", compressedString);
         }
@@ -199,7 +197,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29904|67|851409|1|-1", compressedString);
         }
@@ -212,7 +210,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             Assert.AreEqual("71|29904|67|851409|1|-1|-1|1", compressedString);
         }
@@ -245,7 +243,7 @@ namespace tests
 
             var points = FileManager.ConvertDataIntoPoints(data1File);
 
-            var compressedString = new DeltaCompressorAlgorithm(new DeltaPointCompressorAlgorithm()).Compress(points);
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
             var originalLength = data1File.Length;
 

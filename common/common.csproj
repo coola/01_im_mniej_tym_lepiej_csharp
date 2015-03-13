@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FF386796-30EA-49D6-AA43-364D912DAC64}</ProjectGuid>
+    <ProjectGuid>{AF765D6F-A404-4266-9145-64A16AA2DD39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>compress</RootNamespace>
-    <AssemblyName>compress</AssemblyName>
+    <RootNamespace>common</RootNamespace>
+    <AssemblyName>common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,16 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompressorAlgorithm.cs" />
-    <Compile Include="CompressorAlorithm.cs" />
-    <Compile Include="DeltaCompressorAlgorithm.cs" />
-    <Compile Include="PointCompressorAlgorithm.cs" />
-    <Compile Include="Decompressor.cs" />
-    <Compile Include="DeltaPointCompressorAlgorithm.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="GPS_Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleCompressor.cs" />
     <Compile Include="Strings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,13 +1,13 @@
-using System;
 using System.Collections.Generic;
 using System.Text;
+using common;
 
 namespace compress
 {
-    public class DeltaCompressorAlgorithm : CompressorAlgorithm
+    public class DeltaAlgorithm : Algorithm
     {
-        public DeltaCompressorAlgorithm(PointCompressorAlgorithm algorithm)
-            : base(algorithm)
+        public DeltaAlgorithm(PointAlgorithm decompressorAlgorithm)
+            : base(decompressorAlgorithm)
         {
         }
 
@@ -21,7 +21,7 @@ namespace compress
 
                 if (index == 0)
                 {
-                    compressedResult.Append(Algorithm.CompressPoint(point));
+                    compressedResult.Append(InnerAlgorithm.CompressPoint(point));
                 }
                 else
                 {
@@ -33,6 +33,17 @@ namespace compress
             }
 
             return compressedResult.ToString();
+        }
+
+        public override List<GPS_Point> Decompress(string compressedString)
+        {
+
+            var resultList = new List<GPS_Point>();
+
+            var splittedString = compressedString.Split('|');
+
+            return resultList;
+
         }
     }
 }

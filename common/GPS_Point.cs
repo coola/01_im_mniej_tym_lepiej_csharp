@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace compress
+namespace common
 {
     public class GPS_Point
     {

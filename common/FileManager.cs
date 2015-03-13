@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
-namespace compress
+namespace common
 {
     public class FileManager
     {
@@ -24,6 +25,18 @@ namespace compress
 	            }
             return result;
         
+        }
+
+        public static string ConvertPointsIntoData(List<GPS_Point> points)
+        {
+            var result = new StringBuilder();
+
+            foreach (var point in points)
+            {
+                result.Append(point.Latitude + ',' + point.Longitude);
+            }
+            return result.ToString();
+
         }
     }
 }
