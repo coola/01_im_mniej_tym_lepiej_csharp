@@ -31,8 +31,14 @@ namespace common
         {
             var result = new StringBuilder();
 
-            foreach (var point in points)
+            for (int index = 0; index < points.Count; index++)
             {
+                if (index != 0)
+                {
+                    result.Append('\n');
+                }
+
+                var point = points[index];
                 result.Append(point.Latitude + ',' + point.Longitude);
             }
             return result.ToString();

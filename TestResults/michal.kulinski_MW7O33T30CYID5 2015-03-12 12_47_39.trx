@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b1757172-b520-4530-8bf1-6866f3d01d3e" name="michal.kulinski@MW7O33T30CYID5 2015-03-12 12:47:39" runUser="DIR\michal.kulinski" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dae9df71-d300-401f-8367-061e4e710b1c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="michal.kulinski_MW7O33T30CYID5 2015-03-12 12_47_39">
+      <DeploymentItem filename="C:\Users\michal.kulinski\Documents\Visual Studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\packages\NUnit.2.6.4\lib\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\michal.kulinski\Documents\Visual Studio 2010\Projects\01_im_mniej_tym_lepiej_csharp\compress\bin\Release\compress.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-12T12:47:39.5274277+01:00" queuing="2015-03-12T12:47:39.6304380+01:00" start="2015-03-12T12:47:39.6444394+01:00" finish="2015-03-12T12:47:40.4605210+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="test_strings_length" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="f49206b8-a484-7045-f0c4-f270f1930661">
+      <Execution id="e16389c3-307a-4c50-b97f-bd373378d122" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_strings_length" />
+    </UnitTest>
+    <UnitTest name="test_convert_data_into_points_2" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="a4430037-d7ec-232f-7eef-e40a913ee911">
+      <Execution id="7ec7c310-4103-4937-a65e-fac0d265d907" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_convert_data_into_points_2" />
+    </UnitTest>
+    <UnitTest name="test_sgps_points_split_for_ints" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="37f0a8fb-cceb-6c44-7030-ac6304b05147">
+      <Execution id="178b9f1c-185d-403f-8f72-41ef9c396f98" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_sgps_points_split_for_ints" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_file_attempt_4" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="1ab412ce-046f-13e6-b04f-1e01be48e4f9">
+      <Execution id="38446337-ac5b-4607-b7de-9f97a5a6061d" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_file_attempt_4" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_7" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="960ec5cc-8a6a-ba09-9031-40d73600e982">
+      <Execution id="560cefa3-59eb-4531-ae9a-e7eaacf7ead9" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_7" />
+    </UnitTest>
+    <UnitTest name="load_test_file_2" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="22cf0e83-a0ce-7bed-9e92-e2d939481b8f">
+      <Execution id="55ff3f91-e5bc-4a6f-b8fd-9a83cdc9b150" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_2" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_9" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="8e227a52-8cc5-a4cb-a12c-3f7433be3cd3">
+      <Execution id="d19e7f8f-5c90-47ee-b977-196dde72b56b" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_9" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_file_attempt_2" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="9162342d-48cf-6910-b5ae-7e52a252e96e">
+      <Execution id="393a3278-3a9b-4fe5-bffa-f8657608e153" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_file_attempt_2" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_5" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="494eaa50-fbec-cefa-de5f-8d674e310437">
+      <Execution id="6073de29-f4e8-4fc2-b988-e96947faa216" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_5" />
+    </UnitTest>
+    <UnitTest name="test_if_there_is_file_manager" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="ee0db5e7-d83e-68aa-d692-dc677cbf0679">
+      <Execution id="5d707bae-e7ac-4922-8377-6d861c339f1f" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_if_there_is_file_manager" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_4" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="7016f3c2-279c-e811-0254-e2ee9d0c02a7">
+      <Execution id="be767d18-5ad7-4430-8391-1c7994696004" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_4" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_6" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="74dce297-3c51-ef48-08ad-1b1da3298159">
+      <Execution id="a5d1d5eb-4a6a-42f1-abc3-032b9e97377c" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_6" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_8" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="f0f38af9-a6cf-3454-ac84-8dbdacb14c65">
+      <Execution id="7f9f0ada-d655-49be-8ea1-48f3aff16dbf" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_8" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_3" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="5b420e58-8f32-f2a7-67b2-136b4e296488">
+      <Execution id="9d6ebe4b-5ede-4ca9-9a23-df68f7aebcd6" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_3" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_1" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="87408434-738b-459c-a207-41bd024c274b">
+      <Execution id="511a33f0-e273-4a3c-8388-d175404be46d" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_1" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_file_attempt_3" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="192f8f58-807e-ab8c-dcda-411fd117797e">
+      <Execution id="56f2c333-97c4-4aca-bffd-0fdb38cdf275" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_file_attempt_3" />
+    </UnitTest>
+    <UnitTest name="test_first_compression_attempt_2" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="129b39ef-6ace-3829-e8fe-74b53d364d59">
+      <Execution id="f47a8fe9-b144-4c2c-aa9f-7da1a1787fa9" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_first_compression_attempt_2" />
+    </UnitTest>
+    <UnitTest name="load_test_file_3" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="f2394e23-b5a3-f15d-cb4e-52794c4ff943">
+      <Execution id="29abbda2-fc07-4488-9edf-52308c3985c8" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_3" />
+    </UnitTest>
+    <UnitTest name="load_test_file_4" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="4b5440f6-19d1-9215-88a7-bcfab10115c8">
+      <Execution id="a7cd1128-f29e-4265-918d-c3703ee41b8d" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="load_test_file_4" />
+    </UnitTest>
+    <UnitTest name="test_convert_data_into_points_1" storage="c:\users\michal.kulinski\documents\visual studio 2010\projects\01_im_mniej_tym_lepiej_csharp\tests\bin\release\tests.dll" id="dbfbd78d-947c-15b8-e901-2573a3beee03">
+      <Execution id="c4061920-ae05-40a3-848b-8e76726360e4" />
+      <TestMethod codeBase="C:/Users/michal.kulinski/Documents/Visual Studio 2010/Projects/01_im_mniej_tym_lepiej_csharp/tests/bin/Release/tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tests.CompressTests, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_convert_data_into_points_1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="129b39ef-6ace-3829-e8fe-74b53d364d59" executionId="f47a8fe9-b144-4c2c-aa9f-7da1a1787fa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="192f8f58-807e-ab8c-dcda-411fd117797e" executionId="56f2c333-97c4-4aca-bffd-0fdb38cdf275" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab412ce-046f-13e6-b04f-1e01be48e4f9" executionId="38446337-ac5b-4607-b7de-9f97a5a6061d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22cf0e83-a0ce-7bed-9e92-e2d939481b8f" executionId="55ff3f91-e5bc-4a6f-b8fd-9a83cdc9b150" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37f0a8fb-cceb-6c44-7030-ac6304b05147" executionId="178b9f1c-185d-403f-8f72-41ef9c396f98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="494eaa50-fbec-cefa-de5f-8d674e310437" executionId="6073de29-f4e8-4fc2-b988-e96947faa216" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b5440f6-19d1-9215-88a7-bcfab10115c8" executionId="a7cd1128-f29e-4265-918d-c3703ee41b8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b420e58-8f32-f2a7-67b2-136b4e296488" executionId="9d6ebe4b-5ede-4ca9-9a23-df68f7aebcd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7016f3c2-279c-e811-0254-e2ee9d0c02a7" executionId="be767d18-5ad7-4430-8391-1c7994696004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74dce297-3c51-ef48-08ad-1b1da3298159" executionId="a5d1d5eb-4a6a-42f1-abc3-032b9e97377c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87408434-738b-459c-a207-41bd024c274b" executionId="511a33f0-e273-4a3c-8388-d175404be46d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e227a52-8cc5-a4cb-a12c-3f7433be3cd3" executionId="d19e7f8f-5c90-47ee-b977-196dde72b56b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9162342d-48cf-6910-b5ae-7e52a252e96e" executionId="393a3278-3a9b-4fe5-bffa-f8657608e153" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="960ec5cc-8a6a-ba09-9031-40d73600e982" executionId="560cefa3-59eb-4531-ae9a-e7eaacf7ead9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4430037-d7ec-232f-7eef-e40a913ee911" executionId="7ec7c310-4103-4937-a65e-fac0d265d907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbfbd78d-947c-15b8-e901-2573a3beee03" executionId="c4061920-ae05-40a3-848b-8e76726360e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee0db5e7-d83e-68aa-d692-dc677cbf0679" executionId="5d707bae-e7ac-4922-8377-6d861c339f1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0f38af9-a6cf-3454-ac84-8dbdacb14c65" executionId="7f9f0ada-d655-49be-8ea1-48f3aff16dbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2394e23-b5a3-f15d-cb4e-52794c4ff943" executionId="29abbda2-fc07-4488-9edf-52308c3985c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f49206b8-a484-7045-f0c4-f270f1930661" executionId="e16389c3-307a-4c50-b97f-bd373378d122" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f47a8fe9-b144-4c2c-aa9f-7da1a1787fa9" testId="129b39ef-6ace-3829-e8fe-74b53d364d59" testName="test_first_compression_attempt_2" computerName="MW7O33T30CYID5" duration="00:00:00.0274743" startTime="2015-03-12T12:47:39.6784428+01:00" endTime="2015-03-12T12:47:40.0504800+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f47a8fe9-b144-4c2c-aa9f-7da1a1787fa9">
+    </UnitTestResult>
+    <UnitTestResult executionId="56f2c333-97c4-4aca-bffd-0fdb38cdf275" testId="192f8f58-807e-ab8c-dcda-411fd117797e" testName="test_first_compression_file_attempt_3" computerName="MW7O33T30CYID5" duration="00:00:00.1158445" startTime="2015-03-12T12:47:40.0554805+01:00" endTime="2015-03-12T12:47:40.1754925+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56f2c333-97c4-4aca-bffd-0fdb38cdf275">
+    </UnitTestResult>
+    <UnitTestResult executionId="38446337-ac5b-4607-b7de-9f97a5a6061d" testId="1ab412ce-046f-13e6-b04f-1e01be48e4f9" testName="test_first_compression_file_attempt_4" computerName="MW7O33T30CYID5" duration="00:00:00.0007370" startTime="2015-03-12T12:47:40.1784928+01:00" endTime="2015-03-12T12:47:40.1814931+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38446337-ac5b-4607-b7de-9f97a5a6061d">
+    </UnitTestResult>
+    <UnitTestResult executionId="55ff3f91-e5bc-4a6f-b8fd-9a83cdc9b150" testId="22cf0e83-a0ce-7bed-9e92-e2d939481b8f" testName="load_test_file_2" computerName="MW7O33T30CYID5" duration="00:00:00.0076375" startTime="2015-03-12T12:47:40.1834933+01:00" endTime="2015-03-12T12:47:40.1934943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55ff3f91-e5bc-4a6f-b8fd-9a83cdc9b150">
+    </UnitTestResult>
+    <UnitTestResult executionId="178b9f1c-185d-403f-8f72-41ef9c396f98" testId="37f0a8fb-cceb-6c44-7030-ac6304b05147" testName="test_sgps_points_split_for_ints" computerName="MW7O33T30CYID5" duration="00:00:00.0007140" startTime="2015-03-12T12:47:40.1954945+01:00" endTime="2015-03-12T12:47:40.1984948+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="178b9f1c-185d-403f-8f72-41ef9c396f98">
+    </UnitTestResult>
+    <UnitTestResult executionId="6073de29-f4e8-4fc2-b988-e96947faa216" testId="494eaa50-fbec-cefa-de5f-8d674e310437" testName="test_first_compression_attempt_5" computerName="MW7O33T30CYID5" duration="00:00:00.0003022" startTime="2015-03-12T12:47:40.2014951+01:00" endTime="2015-03-12T12:47:40.2044954+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6073de29-f4e8-4fc2-b988-e96947faa216">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7cd1128-f29e-4265-918d-c3703ee41b8d" testId="4b5440f6-19d1-9215-88a7-bcfab10115c8" testName="load_test_file_4" computerName="MW7O33T30CYID5" duration="00:00:00.0011223" startTime="2015-03-12T12:47:40.2054955+01:00" endTime="2015-03-12T12:47:40.2094959+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7cd1128-f29e-4265-918d-c3703ee41b8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d6ebe4b-5ede-4ca9-9a23-df68f7aebcd6" testId="5b420e58-8f32-f2a7-67b2-136b4e296488" testName="test_first_compression_attempt_3" computerName="MW7O33T30CYID5" duration="00:00:00.0002998" startTime="2015-03-12T12:47:40.2124962+01:00" endTime="2015-03-12T12:47:40.2164966+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d6ebe4b-5ede-4ca9-9a23-df68f7aebcd6">
+    </UnitTestResult>
+    <UnitTestResult executionId="be767d18-5ad7-4430-8391-1c7994696004" testId="7016f3c2-279c-e811-0254-e2ee9d0c02a7" testName="test_first_compression_attempt_4" computerName="MW7O33T30CYID5" duration="00:00:00.0003797" startTime="2015-03-12T12:47:40.2184968+01:00" endTime="2015-03-12T12:47:40.2214971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be767d18-5ad7-4430-8391-1c7994696004">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5d1d5eb-4a6a-42f1-abc3-032b9e97377c" testId="74dce297-3c51-ef48-08ad-1b1da3298159" testName="test_first_compression_attempt_6" computerName="MW7O33T30CYID5" duration="00:00:00.0003075" startTime="2015-03-12T12:47:40.2234973+01:00" endTime="2015-03-12T12:47:40.2264976+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5d1d5eb-4a6a-42f1-abc3-032b9e97377c">
+    </UnitTestResult>
+    <UnitTestResult executionId="511a33f0-e273-4a3c-8388-d175404be46d" testId="87408434-738b-459c-a207-41bd024c274b" testName="test_first_compression_attempt_1" computerName="MW7O33T30CYID5" duration="00:00:00.0002886" startTime="2015-03-12T12:47:40.2284978+01:00" endTime="2015-03-12T12:47:40.2304980+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="511a33f0-e273-4a3c-8388-d175404be46d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d19e7f8f-5c90-47ee-b977-196dde72b56b" testId="8e227a52-8cc5-a4cb-a12c-3f7433be3cd3" testName="test_first_compression_attempt_9" computerName="MW7O33T30CYID5" duration="00:00:00.0003137" startTime="2015-03-12T12:47:40.2334983+01:00" endTime="2015-03-12T12:47:40.2354985+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d19e7f8f-5c90-47ee-b977-196dde72b56b">
+    </UnitTestResult>
+    <UnitTestResult executionId="393a3278-3a9b-4fe5-bffa-f8657608e153" testId="9162342d-48cf-6910-b5ae-7e52a252e96e" testName="test_first_compression_file_attempt_2" computerName="MW7O33T30CYID5" duration="00:00:00.1446831" startTime="2015-03-12T12:47:40.2374987+01:00" endTime="2015-03-12T12:47:40.3845134+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="393a3278-3a9b-4fe5-bffa-f8657608e153">
+    </UnitTestResult>
+    <UnitTestResult executionId="560cefa3-59eb-4531-ae9a-e7eaacf7ead9" testId="960ec5cc-8a6a-ba09-9031-40d73600e982" testName="test_first_compression_attempt_7" computerName="MW7O33T30CYID5" duration="00:00:00.0002970" startTime="2015-03-12T12:47:40.3875137+01:00" endTime="2015-03-12T12:47:40.3905140+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="560cefa3-59eb-4531-ae9a-e7eaacf7ead9">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ec7c310-4103-4937-a65e-fac0d265d907" testId="a4430037-d7ec-232f-7eef-e40a913ee911" testName="test_convert_data_into_points_2" computerName="MW7O33T30CYID5" duration="00:00:00.0004301" startTime="2015-03-12T12:47:40.3925142+01:00" endTime="2015-03-12T12:47:40.3945144+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ec7c310-4103-4937-a65e-fac0d265d907">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4061920-ae05-40a3-848b-8e76726360e4" testId="dbfbd78d-947c-15b8-e901-2573a3beee03" testName="test_convert_data_into_points_1" computerName="MW7O33T30CYID5" duration="00:00:00.0007616" startTime="2015-03-12T12:47:40.3965146+01:00" endTime="2015-03-12T12:47:40.3995149+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4061920-ae05-40a3-848b-8e76726360e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d707bae-e7ac-4922-8377-6d861c339f1f" testId="ee0db5e7-d83e-68aa-d692-dc677cbf0679" testName="test_if_there_is_file_manager" computerName="MW7O33T30CYID5" duration="00:00:00.0002285" startTime="2015-03-12T12:47:40.4015151+01:00" endTime="2015-03-12T12:47:40.4045154+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d707bae-e7ac-4922-8377-6d861c339f1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f9f0ada-d655-49be-8ea1-48f3aff16dbf" testId="f0f38af9-a6cf-3454-ac84-8dbdacb14c65" testName="test_first_compression_attempt_8" computerName="MW7O33T30CYID5" duration="00:00:00.0003246" startTime="2015-03-12T12:47:40.4065156+01:00" endTime="2015-03-12T12:47:40.4085158+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f9f0ada-d655-49be-8ea1-48f3aff16dbf">
+    </UnitTestResult>
+    <UnitTestResult executionId="29abbda2-fc07-4488-9edf-52308c3985c8" testId="f2394e23-b5a3-f15d-cb4e-52794c4ff943" testName="load_test_file_3" computerName="MW7O33T30CYID5" duration="00:00:00.0084259" startTime="2015-03-12T12:47:40.4105160+01:00" endTime="2015-03-12T12:47:40.4215171+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29abbda2-fc07-4488-9edf-52308c3985c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="e16389c3-307a-4c50-b97f-bd373378d122" testId="f49206b8-a484-7045-f0c4-f270f1930661" testName="test_strings_length" computerName="MW7O33T30CYID5" duration="00:00:00.0007784" startTime="2015-03-12T12:47:40.4235173+01:00" endTime="2015-03-12T12:47:40.4275177+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e16389c3-307a-4c50-b97f-bd373378d122">
+    </UnitTestResult>
+  </Results>
+</TestRun>

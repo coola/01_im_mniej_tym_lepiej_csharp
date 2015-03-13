@@ -25,11 +25,39 @@ namespace tests
         }
 
         [TestMethod]
-        public void test_first_decompression_attempt_()
+        public void test_first_decompression_attempt_1()
         {
             const string compressedTestString = "71|29905|67|851409";
+
             var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedTestString);
-            
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            Assert.AreEqual("71.029905,67.851409", stringData);
+        }
+
+        [TestMethod]
+        public void test_first_decompression_attempt_2()
+        {
+            const string compressedTestString = "71|29905|67|851409|1|-1";
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedTestString);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            Assert.AreEqual("71.029905,67.851409\n71.029906,67.851408", stringData);
+        }
+
+        [TestMethod]
+        public void test_first_decompression_attempt_3()
+        {
+            const string compressedTestString = "71|29905|67|851409|1|-1|-1|1";
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedTestString);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            Assert.AreEqual("71.029905,67.851409\n71.029906,67.851408\n71.029905,67.851409", stringData);
         }
 
     }

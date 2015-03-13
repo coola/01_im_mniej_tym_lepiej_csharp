@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-
-namespace compress
+namespace common
 {
     public static class Strings
     {
@@ -10,6 +9,11 @@ namespace compress
         public static long ComputeStringsLength(String[] stringLines)
         {
             return stringLines.Sum(line => line.Length);
+        }
+
+        public static string PadWithZeroes(string stringToPad)
+        {
+            return stringToPad.PadLeft(GPS_Point.LengthOfRightSide, '0');
         }
     }
 }
