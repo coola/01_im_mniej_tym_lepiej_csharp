@@ -1,10 +1,11 @@
-﻿using System;
+﻿
+using System;
 using System.IO;
 using compressDecompress;
 
-namespace decompress
+namespace compress
 {
-    static class DecompressProgram
+    public static class CompressProgram
     {
         static void Main(string[] args)
         {
@@ -13,15 +14,16 @@ namespace decompress
                 if (args.Length == 0) { throw new Exception("File name cannot be empty"); }
                 if (args.Length != 1) { throw new Exception("There should be only one argument - filename"); }
 
-                var nameOfFileToDecompress = args[0];
+                var nameOfFileToCompress = args[0];
 
-                var dataFromFile = File.ReadAllLines(nameOfFileToDecompress);
+                var dataFromFile = File.ReadAllLines(nameOfFileToCompress);
 
-                var decompressedString = CompressDecompress.Decompress(dataFromFile[0]);
+                var compressedString = CompressDecompress.Compress(dataFromFile);
 
-                var fileName = nameOfFileToDecompress.Split('_');
+                var fileName = nameOfFileToCompress.Split('.');
 
-                File.WriteAllText(string.Format("{0}_decompress", fileName[0]), decompressedString);
+                File.WriteAllText(string.Format("{0}_compress", fileName[0]), compressedString);
+
             }
             catch (Exception ex)
             {

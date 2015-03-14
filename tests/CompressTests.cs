@@ -1,15 +1,15 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.IO;
+﻿using System.IO;
 using System.Reflection;
 using common;
 using compressDecompress;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace tests
 {
     [TestClass]
     public class CompressTests
     {
-        public static readonly string AssemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        private static readonly string AssemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         [TestMethod]
         public void test_if_there_is_file_manager()
@@ -238,7 +238,47 @@ namespace tests
 
             var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
 
-            Assert.AreEqual("71|29904|67|851409|0|0|0|0", compressedString);
+            Assert.AreEqual("71|29904|67|851409|0|0|la1|0|0", compressedString);
+        }
+
+
+        [TestMethod]
+        public void test_first_compression_attempt_12()
+        {
+
+            var data = new[] { "71.029904,67.851409", "71.029904,67.851409", "71.029904,68.851409" };
+
+            var points = FileManager.ConvertDataIntoPoints(data);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            Assert.AreEqual("71|29904|67|851409|0|0|lo1|0|0", compressedString);
+        }
+
+        [TestMethod]
+        public void test_first_compression_attempt_13()
+        {
+
+            var data = new[] { "71.029904,67.851409", "71.029904,67.851409", "72.029904,68.851409" };
+
+            var points = FileManager.ConvertDataIntoPoints(data);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            Assert.AreEqual("71|29904|67|851409|0|0|la1|lo1|0|0", compressedString);
+        }
+
+        [TestMethod]
+        public void test_first_compression_attempt_14()
+        {
+
+            var data = new[] { "71.029904,67.851409", "72.029904,68.851409", "71.029904,67.851409" };
+
+            var points = FileManager.ConvertDataIntoPoints(data);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            Assert.AreEqual("71|29904|67|851409|la1|lo1|0|0|la-1|lo-1|0|0", compressedString);
         }
 
         [TestMethod]
@@ -263,7 +303,7 @@ namespace tests
             CompressWithFile("Data4.txt");
         }
 
-        private void CompressWithFile(string filename)
+        private static void CompressWithFile(string filename)
         {
             var data1File = File.ReadAllLines(AssemblyPath + "/" + filename);
 

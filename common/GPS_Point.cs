@@ -4,8 +4,7 @@ namespace common
 {
     public class GPS_Point
     {
-
-        public static int LengthOfRightSide = 6;
+        public const int LengthOfRightSide = 6;
 
         public string Latitude { get; set; }
         public string Longitude { get; set; }

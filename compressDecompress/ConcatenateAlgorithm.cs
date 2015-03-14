@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using common;
 
@@ -25,7 +26,7 @@ namespace compressDecompress
 
         public override List<GPS_Point> Decompress(string compressedString)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using common;
+﻿using System;
+using common;
 
 namespace compressDecompress
 {
@@ -14,7 +15,7 @@ namespace compressDecompress
 
         public override GPS_Point DecompressPoint(string point)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

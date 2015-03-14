@@ -12,5 +12,12 @@ namespace compressDecompress
             return new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
         }
 
+        public static string Decompress(string stringToDecompress)
+        {
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(stringToDecompress);
+
+            return FileManager.ConvertPointsIntoData(decompressedLines);
+        }
+
     }
 }
