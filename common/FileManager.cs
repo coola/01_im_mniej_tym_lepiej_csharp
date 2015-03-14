@@ -31,15 +31,10 @@ namespace common
         {
             var result = new StringBuilder();
 
-            for (int index = 0; index < points.Count; index++)
+            foreach (var point in points)
             {
-                if (index != 0)
-                {
-                    result.Append('\n');
-                }
-
-                var point = points[index];
                 result.Append(point.Latitude + ',' + point.Longitude);
+                result.Append("\r\n");
             }
             return result.ToString();
 

@@ -2,7 +2,7 @@
 using System.Text;
 using common;
 
-namespace compress
+namespace compressDecompress
 {
     public class ConcatenateAlgorithm : Algorithm
     {

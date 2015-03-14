@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Text;
 using common;
 
-namespace compress
+namespace compressDecompress
 {
     public class DeltaAlgorithm : Algorithm
     {

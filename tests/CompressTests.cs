@@ -2,14 +2,14 @@
 using System.IO;
 using System.Reflection;
 using common;
-using compress;
+using compressDecompress;
 
 namespace tests
 {
     [TestClass]
     public class CompressTests
     {
-        private readonly string _assemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        public static readonly string AssemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         [TestMethod]
         public void test_if_there_is_file_manager()
@@ -22,35 +22,35 @@ namespace tests
         [Ignore]
         public void load_test_file_1()
         {
-            var data1File = File.ReadAllLines(_assemblyPath + "/Data1.txt");
+            var data1File = File.ReadAllLines(AssemblyPath + "/Data1.txt");
             Assert.IsNotNull(data1File);
         }
 
         [TestMethod]
         public void load_test_file_2()
         {
-            var data1File = File.ReadAllLines(_assemblyPath + "/Data2.txt");
+            var data1File = File.ReadAllLines(AssemblyPath + "/Data2.txt");
             Assert.IsNotNull(data1File);
         }
 
         [TestMethod]
         public void load_test_file_3()
         {
-            var data1File = File.ReadAllLines(_assemblyPath + "/Data3.txt");
+            var data1File = File.ReadAllLines(AssemblyPath + "/Data3.txt");
             Assert.IsNotNull(data1File);
         }
 
         [TestMethod]
         public void load_test_file_4()
         {
-            var data1File = File.ReadAllLines(_assemblyPath + "/Data4.txt");
+            var data1File = File.ReadAllLines(AssemblyPath + "/Data4.txt");
             Assert.IsNotNull(data1File);
         }
 
         [TestMethod]
         public void test_convert_data_into_points_1()
         {
-            var data4File = File.ReadAllLines(_assemblyPath + "/Data4.txt");
+            var data4File = File.ReadAllLines(AssemblyPath + "/Data4.txt");
 
             var points = FileManager.ConvertDataIntoPoints(data4File);
 
@@ -216,6 +216,32 @@ namespace tests
         }
 
         [TestMethod]
+        public void test_first_compression_attempt_10()
+        {
+
+            var data = new[] { "71.029904,67.851409", "71.029904,67.851409", "71.029904,67.851409" };
+
+            var points = FileManager.ConvertDataIntoPoints(data);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            Assert.AreEqual("71|29904|67|851409|0|0|0|0", compressedString);
+        }
+
+        [TestMethod]
+        public void test_first_compression_attempt_11()
+        {
+
+            var data = new[] { "71.029904,67.851409", "71.029904,67.851409", "72.029904,67.851409" };
+
+            var points = FileManager.ConvertDataIntoPoints(data);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            Assert.AreEqual("71|29904|67|851409|0|0|0|0", compressedString);
+        }
+
+        [TestMethod]
         [Ignore]
         public void test_first_compression_file_attempt_1()
         {
@@ -239,7 +265,7 @@ namespace tests
 
         private void CompressWithFile(string filename)
         {
-            var data1File = File.ReadAllLines(_assemblyPath + "/" + filename);
+            var data1File = File.ReadAllLines(AssemblyPath + "/" + filename);
 
             var points = FileManager.ConvertDataIntoPoints(data1File);
 
@@ -251,5 +277,61 @@ namespace tests
 
             Assert.IsTrue(originalLength < compressedLength);
         }
+
+        [TestMethod]
+        [Ignore]
+        public void test_saving_compressed_to_file()
+        {
+            var data1File = File.ReadAllLines(AssemblyPath + "/" + "Data1.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"out.txt", compressedString);
+
+        }
+
+        [TestMethod]
+        public void test_saving_compressed_to_file_1()
+        {
+            var data1File = File.ReadAllLines(AssemblyPath + "/" + "Data2.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"out2.txt", compressedString);
+
+        }
+
+        [TestMethod]
+        public void test_saving_compressed_to_file_3()
+        {
+            var data1File = File.ReadAllLines(AssemblyPath + "/" + "Data3.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"out3.txt", compressedString);
+
+        }
+
+        [TestMethod]
+        public void test_saving_compressed_to_file_4()
+        {
+            var data1File = File.ReadAllLines(AssemblyPath + "/" + "Data4.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"out4.txt", compressedString);
+
+        }
+
+
+
     }
 }

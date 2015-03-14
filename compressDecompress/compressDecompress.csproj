@@ -8,8 +8,8 @@
     <ProjectGuid>{FF386796-30EA-49D6-AA43-364D912DAC64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>compress</RootNamespace>
-    <AssemblyName>compress</AssemblyName>
+    <RootNamespace>compressDecompress</RootNamespace>
+    <AssemblyName>compressDecompress</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm.cs" />
+    <Compile Include="CompressDecompress.cs" />
     <Compile Include="ConcatenateAlgorithm.cs" />
     <Compile Include="DeltaAlgorithm.cs" />
     <Compile Include="PointAlgorithm.cs" />

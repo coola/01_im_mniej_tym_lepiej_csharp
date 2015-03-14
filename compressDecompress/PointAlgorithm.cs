@@ -1,7 +1,7 @@
 ﻿
 using common;
 
-namespace compress
+namespace compressDecompress
 {
     public abstract class PointAlgorithm
     {

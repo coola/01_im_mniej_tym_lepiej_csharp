@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B621918E-6B43-4BB5-930F-8674FB5D9ECC}</ProjectGuid>
+    <ProjectGuid>{5475A757-EBE7-4C17-834C-59F839BD27E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01_im_mniej_tym_lepiej_csharp</RootNamespace>
-    <AssemblyName>01_im_mniej_tym_lepiej_csharp</AssemblyName>
+    <RootNamespace>compress</RootNamespace>
+    <AssemblyName>compress</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CompressProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\compressDecompress\compressDecompress.csproj">
+      <Project>{FF386796-30EA-49D6-AA43-364D912DAC64}</Project>
+      <Name>compressDecompress</Name>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,6 @@
 ﻿using common;
 
-namespace compress
+namespace compressDecompress
 {
     public class DeltaPointAlgorithm : PointAlgorithm
     {

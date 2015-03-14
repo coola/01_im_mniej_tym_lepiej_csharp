@@ -61,7 +61,7 @@
       <Project>{AF765D6F-A404-4266-9145-64A16AA2DD39}</Project>
       <Name>common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\compress\compressDecompress.csproj">
+    <ProjectReference Include="..\compressDecompress\compressDecompress.csproj">
       <Project>{FF386796-30EA-49D6-AA43-364D912DAC64}</Project>
       <Name>compressDecompress</Name>
     </ProjectReference>

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using common;
 
-namespace compress
+namespace compressDecompress
 {
     public abstract class Algorithm
     {
@@ -18,5 +18,6 @@ namespace compress
         public abstract string Compress(List<GPS_Point> points);
 
         public abstract List<GPS_Point> Decompress(string compressedString);
+        
     }
 }
