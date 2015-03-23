@@ -370,8 +370,5 @@ namespace tests
             File.WriteAllText(@"out4.txt", compressedString);
 
         }
-
-
-
     }
 }

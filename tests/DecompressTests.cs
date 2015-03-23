@@ -126,6 +126,151 @@ namespace tests
             Assert.IsTrue(FileEquals("Data1.txt", "Data1.decompressed.txt"));
         }
 
+        [TestMethod]
+        public void test_compress_decompress_1()
+        {
+
+            var data1File = File.ReadAllLines("generatedCoords_4steps_randDirection.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"generatedCoords_4steps_randDirection.decompressed.txt", compressedString);
+
+            var compressedData1 = File.ReadAllLines("generatedCoords_4steps_randDirection.decompressed.txt");
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedData1[0]);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            File.WriteAllText(@"generatedCoords_4steps_randDirection.compressed.txt", stringData);
+
+            Assert.IsTrue(FileEquals("generatedCoords_4steps_randDirection.txt", "generatedCoords_4steps_randDirection.compressed.txt"));
+
+
+            byte[] file1 = File.ReadAllBytes("generatedCoords_4steps_randDirection.txt");
+            byte[] file2 = File.ReadAllBytes("generatedCoords_4steps_randDirection.decompressed.txt");
+
+            Assert.Fail("Value original:{0} result:{1}  ratio:{2}", file1.Length, file2.Length, (double)file1.Length / file2.Length);
+        }
+
+     
+        [TestMethod]
+        public void test_compress_decompress_2()
+        {
+
+            var data1File = File.ReadAllLines("generatedCoords_constStep_constDirection.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"generatedCoords_constStep_constDirection.decompressed.txt", compressedString);
+
+            var compressedData1 = File.ReadAllLines("generatedCoords_constStep_constDirection.decompressed.txt");
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedData1[0]);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            File.WriteAllText(@"generatedCoords_constStep_constDirection.compressed.txt", stringData);
+
+            Assert.IsTrue(FileEquals("generatedCoords_constStep_constDirection.txt", "generatedCoords_constStep_constDirection.compressed.txt"));
+
+
+            byte[] file1 = File.ReadAllBytes("generatedCoords_constStep_constDirection.txt");
+            byte[] file2 = File.ReadAllBytes("generatedCoords_constStep_constDirection.decompressed.txt");
+
+            Assert.Fail("Value original:{0} result:{1}  ratio:{2}", file1.Length, file2.Length, (double)file1.Length / file2.Length);
+        }
+
+        [TestMethod]
+        public void test_compress_decompress_3()
+        {
+
+            var data1File = File.ReadAllLines("generatedCoords_constStep_randDirection.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"generatedCoords_constStep_randDirection.decompressed.txt", compressedString);
+
+            var compressedData1 = File.ReadAllLines("generatedCoords_constStep_randDirection.decompressed.txt");
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedData1[0]);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            File.WriteAllText(@"generatedCoords_constStep_randDirection.compressed.txt", stringData);
+
+            Assert.IsTrue(FileEquals("generatedCoords_constStep_randDirection.txt", "generatedCoords_constStep_randDirection.compressed.txt"));
+
+            byte[] file1 = File.ReadAllBytes("generatedCoords_constStep_randDirection.txt");
+            byte[] file2 = File.ReadAllBytes("generatedCoords_constStep_randDirection.decompressed.txt");
+
+            Assert.Fail("Value original:{0} result:{1}  ratio:{2}", file1.Length, file2.Length, (double)file1.Length / file2.Length);
+        }
+
+        [TestMethod]
+        public void test_compress_decompress_4()
+        {
+
+            var data1File = File.ReadAllLines("generatedCoords_constStep_randDirection_50mb.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"generatedCoords_constStep_randDirection_50mb.decompressed.txt", compressedString);
+
+            var compressedData1 = File.ReadAllLines("generatedCoords_constStep_randDirection_50mb.decompressed.txt");
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedData1[0]);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            File.WriteAllText(@"generatedCoords_constStep_randDirection_50mb.compressed.txt", stringData);
+
+            Assert.IsTrue(FileEquals("generatedCoords_constStep_randDirection_50mb.txt", "generatedCoords_constStep_randDirection_50mb.compressed.txt"));
+
+            byte[] file1 = File.ReadAllBytes("generatedCoords_constStep_randDirection_50mb.txt");
+            byte[] file2 = File.ReadAllBytes("generatedCoords_constStep_randDirection_50mb.decompressed.txt");
+
+            Assert.Fail("Value original:{0} result:{1}  ratio:{2}", file1.Length, file2.Length, (double)file1.Length / file2.Length);
+        }
+
+        [TestMethod]
+        public void test_compress_decompress_5()
+        {
+
+            var data1File = File.ReadAllLines("generatedCoords_randStep_randDirection.txt");
+
+            var points = FileManager.ConvertDataIntoPoints(data1File);
+
+            var compressedString = new DeltaAlgorithm(new DeltaPointAlgorithm()).Compress(points);
+
+            File.WriteAllText(@"generatedCoords_randStep_randDirection.decompressed.txt", compressedString);
+
+            var compressedData1 = File.ReadAllLines("generatedCoords_randStep_randDirection.decompressed.txt");
+
+            var decompressedLines = new DeltaAlgorithm(new DeltaPointAlgorithm()).Decompress(compressedData1[0]);
+
+            var stringData = FileManager.ConvertPointsIntoData(decompressedLines);
+
+            File.WriteAllText(@"generatedCoords_randStep_randDirection.compressed.txt", stringData);
+
+            Assert.IsTrue(FileEquals("generatedCoords_randStep_randDirection.txt", "generatedCoords_randStep_randDirection.compressed.txt"));
+
+            byte[] file1 = File.ReadAllBytes("generatedCoords_randStep_randDirection.txt");
+            byte[] file2 = File.ReadAllBytes("generatedCoords_randStep_randDirection.decompressed.txt");
+
+            Assert.Fail("Value original:{0} result:{1}  ratio:{2}", file1.Length, file2.Length, (double)file1.Length / file2.Length);
+
+        }
+
+
         static bool FileEquals(string path1, string path2)
         {
             byte[] file1 = File.ReadAllBytes(path1);
